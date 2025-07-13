@@ -1,0 +1,16 @@
+GET http://localhost:8080/home/blogs
+
+###
+POST http://localhost:8080/home/blogs HTTP/1.1
+Content-Type: application/json
+
+{
+  "author": "gerhman sparrow",
+  "likes": 612
+}
+
+###
+GET http://localhost:8080/home/blogs/23323321
+
+###
+GET http://localhost:8080/home/blogs/6873429d5fc8ed19241371d9

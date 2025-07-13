@@ -33,5 +33,4 @@ async function postData(){
   catch(error){}
 }
 
-getData()
-//postData()
+
