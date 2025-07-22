@@ -1,5 +1,4 @@
 const mongo = require("mongoose");
-mongo.set("strictQuery", false);
 
 const blogSchema = new mongo.Schema({
   author: {
@@ -26,4 +25,4 @@ blogSchema.set("toJSON", {
   },
 });
 
-module.exports = mongo.model("Blog", blogSchema);
+module.exports = mongo.model("Blog", blogSchema)
