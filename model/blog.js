@@ -7,6 +7,14 @@ const blogSchema = new mongo.Schema({
     minLength: 4,
     required: true,
   },
+  title: {
+    type: String,
+    required: true
+  },
+  url: {
+    type: String,
+    required: true
+  },
   likes: Number,
 });
 
